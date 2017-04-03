@@ -5,7 +5,7 @@
 Carpetas:
 
 1. Bootstrap
-    1. Config.php
+    1. Config.php
     2. Database.php
     3. Request.php
     4. View.php
