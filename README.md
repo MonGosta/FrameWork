@@ -1,15 +1,27 @@
 # README.md
-## Social Media Engagement
-### Proyecto Final para el Curso Formativo Desarrollo WEB con PHP
+## FrameWork de inicio para proyectos simples Modelo Vista Controlador.
+### Cuso php fundación telefonica Alcoi.
 
-1. Panel de gestión para los administradores del sistema, donde puedan definir: clientes, eventos, usuarios y acciones, además de poder ver datos de uso, etc.
-    * Es preferible que este panel esté basado en Bootstrap, pudiendo los alumnos usar alguna plantilla ya existente que pagará CASFID, a fin de que no pierdan tiempo desarrollando JS, CSS ni HTML redundante. Por ejemplo: http://themes.laborator.co/xenon/
-    * El panel podrá usar un sistema MVC o con cualquier método que CASFID previamente apruebe.
-    * Los desarrollos deberán ser compatibles con PHP 5.6.
-2. Panel de cliente, donde una empresa o marca pueda ver sus eventos, realizar ciertos
-cambios controlados, gestionar sus usuarios, asignar usuarios a eventos, ver datos de
-publicaciones realizadas... Deberá usar una interface gráfica similar a la anterior.
-    * Sistema de registro, donde un cliente puede registrar su evento, sus acciones, etc.
-    * Pruebas de funcionamiento.
+Carpetas:
 
-
+1. Bootstrap
+    1.1. Config.php
+    1.2. Database.php
+    1.3. Request.php
+    1.4. View.php
+2. config
+    2.1. autoload.php
+    2.2. config.php
+3. public
+    3.1. css
+    3.2. images
+    3.3. js
+4. src
+    4.1. controller
+        UserController.php
+    4.2. model
+        UserModel.php
+    4.3. repository
+        EventRepository.php
+        UserRepository.php
+    4.4. viewes
